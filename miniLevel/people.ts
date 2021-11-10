@@ -1,4 +1,5 @@
 // Mini Level Up
+// methods that make it easier : .map .filter
 
 // Giving shape to people
 type People = Array <{ [key:string]: string | number }>
@@ -23,7 +24,7 @@ const people: People = [ { name: "Gracias", age: 40}, { name: 'Nav', age: 70}, {
   }
 
   function getSpecificNames(people: People) :  { [key: string]: string | number } {
-   // filter out a person. js method .filter 
+   // filter out a person
     
   }
   
