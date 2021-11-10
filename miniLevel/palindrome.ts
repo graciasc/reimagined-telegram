@@ -4,7 +4,7 @@
 function palindromeTest( word: string) : boolean {
 
 // check if word is a palidrone and return true or false
-
+    return false
 }
 
 
