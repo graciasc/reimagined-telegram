@@ -1,2 +1,2 @@
 # reimagined-telegram
-A repo to collab and learn neew technologies
+A repo to collab and learn to build UI
