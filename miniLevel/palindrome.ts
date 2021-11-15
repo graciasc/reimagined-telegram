@@ -10,9 +10,9 @@ function palindromeTest( word: string) : boolean {
 
 function simplerPalindroneTest( word: string): boolean {
     const caseSenstive = word.toLowerCase()
-    const reverseWord = caseSenstive.split('').reverse().toString().replace(/,/gm, '')
+    const reversedWord = caseSenstive.split('').reverse().toString().replace(/,/gm, '')
 
-    if(caseSenstive === reverseWord.toString()) {
+    if(caseSenstive === reversedWord) {
         return true
     }
     return false 
