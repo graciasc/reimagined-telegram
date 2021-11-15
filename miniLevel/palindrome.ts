@@ -4,7 +4,15 @@
 function palindromeTest( word: string) : boolean {
 
 // check if word is a palidrone and return true or false
-    return false
+    var word_len = word.length
+    var mid_word = Math.floor(word_len / 2)
+
+    for ( var i = 0; i < mid_word; i++){
+        if (word[i] !== word[ word_len - 1 - i]){
+            return false;
+        }
+    }
+    return true;
 }
 
 
