@@ -8,6 +8,23 @@ function palindromeTest( word: string) : boolean {
 }
 
 
+function simplerPalindroneTest( word: string): boolean {
+    const caseSenstive = word.toLowerCase()
+    const reverseWord = caseSenstive.split('').reverse().toString().replace(/,/gm, '')
+
+    if(caseSenstive === reverseWord.toString()) {
+        return true
+    }
+    return false 
+}
+
+
+// call function below
+const firstTest = palindromeTest('level') // true
+const secondTest = palindromeTest('malayalam') // true
+const thirdTest = palindromeTest('soon') // false
+
+
 // call function below
 const firstTest = palindromeTest('level')
 const secondTest = palindromeTest('Malayalam')
