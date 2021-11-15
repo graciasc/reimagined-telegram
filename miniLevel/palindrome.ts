@@ -8,7 +8,7 @@ function palindromeTest( word: string) : boolean {
     var mid_word = Math.floor(word_len / 2)
 
     for ( var i = 0; i < mid_word; i++){
-        if (word_len[i] !== word_len[word_len - 1 - i]){
+        if (word[i] !== word[ word_len - 1 - i]){
             return false;
         }
     }
