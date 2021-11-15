@@ -24,9 +24,4 @@ const firstTest = palindromeTest('level') // true
 const secondTest = palindromeTest('malayalam') // true
 const thirdTest = palindromeTest('soon') // false
 
-
-// call function below
-const firstTest = palindromeTest('level')
-const secondTest = palindromeTest('Malayalam')
-
 // log results below
