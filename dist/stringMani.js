@@ -1,17 +1,13 @@
+"use strict";
 // Js methods that make this easier .replace .concat
-
 //remove __ and put your name
-const profession: string = "My Name is __ and I am a developer for a living";
-
+var profession = "My Name is __ and I am a developer for a living";
 // add this welcome to the beginning of the welcome string
-const welcome: string = "To Whom this may concern";
-
+var welcome = "To Whom this may concern";
 // remove World from string below
-const HelloWorld: string = "Hello World";
-
+var HelloWorld = "Hello World";
 //intermediate
-
 // add Sir to the beginning of each string in the array
-const names: string[] = ["Billy", "John", "James", "Peter"];
-
+var names = ["Billy", "John", "James", "Peter"];
+console.log("MADE IT");
 // with the new array return all strings in the array. Ex: Sir Billy Sir John
