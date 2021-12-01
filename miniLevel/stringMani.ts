@@ -11,6 +11,8 @@ let wel2 = wel1.concat(welcome);
 console.log(wel2);
 // remove World from string below
 const HelloWorld: string = "Hello World";
+let str = HelloWorld.replace("World", "");
+console.log(str);
 
 //intermediate
 

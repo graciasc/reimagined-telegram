@@ -11,6 +11,8 @@ var wel2 = wel1.concat(welcome);
 console.log(wel2);
 // remove World from string below
 var HelloWorld = "Hello World";
+var str = HelloWorld.replace("World", "");
+console.log(str);
 //intermediate
 // add Sir to the beginning of each string in the array
 var names = ["Billy", "John", "James", "Peter"];
